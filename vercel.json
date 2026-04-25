@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://scarbix.com/:path*",
+      "destination": "https://www.scarbix.com/:path*",
+      "permanent": true
+    }
+  ]
+}
