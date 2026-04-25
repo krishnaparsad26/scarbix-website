@@ -1,7 +1,13 @@
 {
   "redirects": [
     {
-      "source": "https://scarbix.com/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "scarbix.com"
+        }
+      ],
       "destination": "https://www.scarbix.com/:path*",
       "permanent": true
     }
