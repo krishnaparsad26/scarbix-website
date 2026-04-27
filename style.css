@@ -192,23 +192,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 /* Logo */
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: .55rem;
-  font-family: var(--font-head);
-  font-size: 1.25rem;
-  color: var(--clr-forest);
+.logo-img {
+  height: 40px;   /* adjust as needed */
+  width: auto;
 }
-.logo-icon {
-  width: 36px; height: 36px;
-  background: var(--clr-leaf);
-  border-radius: 10px;
-  display: grid; place-items: center;
-  color: #fff;
-  font-size: 1.1rem;
-}
-.logo-text strong { color: var(--clr-leaf); }
 
 /* Nav links */
 .nav-links {
